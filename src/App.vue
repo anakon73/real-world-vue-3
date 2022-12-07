@@ -6,7 +6,7 @@
       class="font-bold text-slate-700"
       active-class="text-emerald-400"
       to="/"
-      >Home</router-link
+      >Events</router-link
     >
     |
     <router-link
