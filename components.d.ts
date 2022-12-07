@@ -8,6 +8,7 @@ export {}
 declare module '@vue/runtime-core' {
   export interface GlobalComponents {
     EventCard: typeof import('./src/components/EventCard.vue')['default']
+    EventDetails: typeof import('./src/components/EventDetails.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
   }
