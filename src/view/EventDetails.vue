@@ -16,7 +16,7 @@ type event = {
   organizer: string
 }
 
-const event = ref()
+const event = ref<event>()
 
 axios
   .get(
