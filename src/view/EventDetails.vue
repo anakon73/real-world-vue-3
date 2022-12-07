@@ -13,7 +13,7 @@ type event = {
   petsAllowed: boolean
   organizer: string
 }
-const event = ref()
+const event = ref<event>()
 axios
   .get(
     `https://my-json-server.typicode.com/anakon73/real-world-vue-3/events/${id}`
