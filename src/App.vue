@@ -5,14 +5,14 @@
     <router-link
       class="font-bold text-slate-700"
       active-class="text-emerald-400"
-      to="/"
+      :to="{ name: 'EventsList' }"
       >Events</router-link
     >
     |
     <router-link
       class="font-bold text-slate-700"
       active-class="text-emerald-400"
-      to="/about"
+      :to="{ name: 'AboutPage' }"
       >About</router-link
     >
   </nav>
