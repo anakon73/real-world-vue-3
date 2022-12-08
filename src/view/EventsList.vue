@@ -1,18 +1,7 @@
 <script setup lang="ts">
 import { ref } from 'vue'
 import axios from 'axios'
-
-type event = {
-  id: number
-  category: string
-  title: string
-  description: string
-  location: string
-  date: string
-  time: string
-  petsAllowed: boolean
-  organizer: string
-}
+import type { event } from '@/types/event'
 
 const events = ref<event[]>([])
 

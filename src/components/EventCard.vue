@@ -1,16 +1,7 @@
 <script setup lang="ts">
+import type { event } from '@/types/event'
 interface Props {
-  event: {
-    id: string
-    category: string
-    title: string
-    description: string
-    location: string
-    date: string
-    time: string
-    petsAllowed: boolean
-    organizer: string
-  }
+  event: event
 }
 
 const { event } = defineProps<Props>()

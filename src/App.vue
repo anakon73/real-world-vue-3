@@ -1,5 +1,3 @@
-<script setup lang="ts"></script>
-
 <template>
   <div class="text-center text-slate-700 font-sans m-2">
     <nav class="p-[30px]">

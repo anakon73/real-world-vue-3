@@ -1,18 +1,9 @@
 <script lang="ts" setup>
 import { ref } from 'vue'
 import axios from 'axios'
+import type { event } from '@/types/event'
 const { id } = defineProps(['id'])
-type event = {
-  id: number
-  category: string
-  title: string
-  description: string
-  location: string
-  date: string
-  time: string
-  petsAllowed: boolean
-  organizer: string
-}
+
 const event = ref<event>()
 axios
   .get(
